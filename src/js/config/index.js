@@ -1,6 +1,7 @@
 import Widget from 'eros-widget'
 import apis from './apis'
 import routes from './routes'
+import Provider from '../provider'
 import './push'
 
 new Widget({
@@ -11,7 +12,7 @@ new Widget({
         routes
     },
     ajax: {
-        baseUrl: 'http://app.weex-eros.com:52077',
+        baseUrl: 'http://XXX.com:52077',
         /**
          * 接口别名
          */
@@ -48,3 +49,5 @@ new Widget({
         }
     }
 })
+
+new Provider()

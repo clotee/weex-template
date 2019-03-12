@@ -13,7 +13,7 @@
 		9774A2C01FF0D82900029216 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9774A2C21FF0D82900029216 /* Launch Screen.storyboard */; };
 		9781D2F11FFF1D2A00BC2C34 /* bundle.zip in Resources */ = {isa = PBXBuildFile; fileRef = 9781D2EF1FFF1D2A00BC2C34 /* bundle.zip */; };
 		9781D2F21FFF1D2A00BC2C34 /* bundle.config in Resources */ = {isa = PBXBuildFile; fileRef = 9781D2F01FFF1D2A00BC2C34 /* bundle.config */; };
-		97A898EA1FB57A9E0095D77C /* eros.native.json in Resources */ = {isa = PBXBuildFile; fileRef = 97A898E91FB57A9D0095D77C /* eros.native.json */; };
+		A89DCA1A2237D06D0034F9DA /* config.native.json in Resources */ = {isa = PBXBuildFile; fileRef = A89DCA192237D06D0034F9DA /* config.native.json */; };
 		E1DE85A0A42930C50BEB1245 /* libPods-LMWeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE25A79A3A97DFB7A3158EC /* libPods-LMWeex.a */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,7 @@
 		9774A2C41FF0D88700029216 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Launch Screen.strings"; sourceTree = "<group>"; };
 		9781D2EF1FFF1D2A00BC2C34 /* bundle.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = bundle.zip; sourceTree = "<group>"; };
 		9781D2F01FFF1D2A00BC2C34 /* bundle.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bundle.config; sourceTree = "<group>"; };
-		97A898E91FB57A9D0095D77C /* eros.native.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eros.native.json; sourceTree = "<group>"; };
+		A89DCA192237D06D0034F9DA /* config.native.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.native.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 		9737F9EB1F384AFD00000800 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A89DCA192237D06D0034F9DA /* config.native.json */,
 				9781D2F01FFF1D2A00BC2C34 /* bundle.config */,
 				9781D2EF1FFF1D2A00BC2C34 /* bundle.zip */,
-				97A898E91FB57A9D0095D77C /* eros.native.json */,
 				9774A2C21FF0D82900029216 /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
@@ -136,7 +136,7 @@
 		9737F9E01F384AFD00000800 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = gsst;
 				TargetAttributes = {
 					9737F9E71F384AFD00000800 = {
@@ -178,8 +178,8 @@
 			files = (
 				9737F9F81F384AFD00000800 /* Assets.xcassets in Resources */,
 				9781D2F21FFF1D2A00BC2C34 /* bundle.config in Resources */,
+				A89DCA1A2237D06D0034F9DA /* config.native.json in Resources */,
 				9781D2F11FFF1D2A00BC2C34 /* bundle.zip in Resources */,
-				97A898EA1FB57A9E0095D77C /* eros.native.json in Resources */,
 				9774A2C01FF0D82900029216 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,15 +292,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -341,15 +349,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

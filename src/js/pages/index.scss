@@ -1,0 +1,54 @@
+@import 'src/js/css/base';
+
+$base-color: #1A887D;
+.container {
+  width:750px;
+}
+
+.line {
+  height:2px;
+  width:700px;
+  background-color: #ffffff;
+}
+
+.container-row {
+  background-color: $base-color;
+  flex-direction: row;
+}
+.container-column {
+  background-color: $base-color;
+  flex-direction: column;
+  padding:0px 15px;
+}
+.container-item{
+  padding: 15px;
+}
+
+.item-text {
+  color: #333;
+  padding: 15px;
+  font-size: 28px;
+}
+.slider {
+  width: 400px;
+  height: 300px;
+  background-color: #C3413D;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider1 {
+  background-color: #635147;
+}
+
+.slider2 {
+  background-color: #FFC302;
+}
+
+.slider3 {
+  background-color: #FF9090;
+}
+
+.slider4 {
+  background-color: #546E7A;
+}
